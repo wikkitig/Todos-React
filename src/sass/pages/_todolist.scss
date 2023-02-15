@@ -1,0 +1,30 @@
+.linethrough{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.btn_todo{
+    color: #fff;
+    background: linear-gradient(to right, rgba(206, 140, 140, 0), rgba(255,0,0,1));
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+}
+
+@media screen and (max-width:693px) {
+    .actions_btn{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .total_actions{
+        padding-left: 10px;
+    }
+    
+}
+.actions_btn{
+    border: none;
+}

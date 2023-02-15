@@ -1,0 +1,44 @@
+@mixin tablet{
+    @media screen and (max-width:1113px) {
+        @content;
+        
+    }
+}
+
+@mixin tab{
+    
+    @media screen and (max-width:1429px) {
+        @content;
+        
+    }
+}
+
+
+
+@mixin tab1{
+    
+    @media screen and (max-width:896px) {
+        @content;
+        
+    }
+}
+@mixin responsive_1{
+    @media screen and (max-width:1168px) {
+        @content;
+        
+    }
+}
+
+@mixin responsive_2{
+    @media screen and (max-width:969px) {
+        @content;
+        
+    }
+}
+
+@mixin responsive_3{
+    @media screen and (max-width:870px) {
+        @content;
+        
+    }
+}

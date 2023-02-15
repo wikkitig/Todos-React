@@ -1,0 +1,8 @@
+.form{
+    display: flex;
+    
+@include responsive_3{
+    margin-top: 20px;
+}
+
+}
