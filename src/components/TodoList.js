@@ -44,20 +44,15 @@ function TodoList({ totalList, addTodDo, updateDone, deleteTodo }) {
             ? totalList.map((val, index) => (
                 <div key={index}>
                   <Todolist_totalData>
-                    <Box
-                      sx={{
-                        paddingLeft: "10em",
-                      }}
-                    >
-                      <Box className={val.isDone ? "linethrough" : ""}>
+                    <Box className="conetent_todo_list">
+                      <Box
+                        className={val.isDone ? "linethrough" : "linesimple"}
+                      >
                         {val.content}
                       </Box>
                     </Box>
 
-                    <Box
-                      className="total_actions"
-                      sx={{ paddingRight: "10em" }}
-                    >
+                    <Box className="total_actions">
                       <button
                         className="actions_btn"
                         onClick={() => CompletedTodo(index)}

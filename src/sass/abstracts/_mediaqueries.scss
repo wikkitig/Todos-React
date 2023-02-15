@@ -42,3 +42,9 @@
         
     }
 }
+@mixin responsive_4{
+    @media screen and (max-width:300px) {
+        @content;
+        
+    }
+}

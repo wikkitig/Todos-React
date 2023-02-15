@@ -22,7 +22,7 @@ function AddToDo({ addTodDo }) {
         toastStyle={{ backgroundColor: "white", color: "white" }}
       />
       <Box className="form">
-        <Box>
+        <Box className="text_field">
           <TextField
             id="standard-basic"
             label="Add Task"

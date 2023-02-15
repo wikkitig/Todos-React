@@ -25,6 +25,7 @@ function Home() {
         <img
           src={process.env.PUBLIC_URL + "/images/todos.png"}
           alt="background_image"
+          className="content_image_"
         ></img>
       </Box>
     </Box>
