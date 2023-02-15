@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Todos-React/static/css/main.e88af448.css",
+    "main.js": "/Todos-React/static/js/main.a0550400.js",
+    "static/media/todo_home.jpg": "/Todos-React/static/media/todo_home.0c07657b4d7ad744ce4d.jpg",
+    "index.html": "/Todos-React/index.html",
+    "main.e88af448.css.map": "/Todos-React/static/css/main.e88af448.css.map",
+    "main.a0550400.js.map": "/Todos-React/static/js/main.a0550400.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e88af448.css",
+    "static/js/main.a0550400.js"
+  ]
+}
