@@ -8,9 +8,7 @@
        flex-direction: column;
        align-items: center;
     }
-  @include responsive_4{
-       backgorund-color:"red";
-    }
+ 
     .content_about{
         padding-left:80px;
         max-width: 650px;
